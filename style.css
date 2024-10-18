@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #00008b;
+    color: #808080;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header h1::selection {
+
+    background-color: #8b0000;
+    color: #8a2be2;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+nav {
+   
+    width: 100%;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #f8f8ff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.box {
+    background-color: #00008b;
+    color: #faebd7;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #00008b;
+    color: #808080;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.parallax1 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/18/19/23/human-5665885_1280.png);
+}
+
+.parallax2 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/14/18/40/weighting-scale-2402966_1280.png);
+}
+
+.parallax3 {
+    background-image: url(https://cdn.pixabay.com/photo/2023/11/15/05/42/people-8389312_1280.png);
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+ form  button {
+    /* margin: 30px; */
+    background-color: #00008b;
+    border-radius: 15px;
+    color: #808080;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 40%;
+
+}
+
+textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+@media(max-width:380px) {
+    .main {
+        flex: 1 1 100%;
+        font-size: 24px;
+    }
+}
+
+@media(max-width:768px) {
+    .main {
+        flex: 1 1 100%;
+        font-size: 24px;
+    }
+}
+
+@media(max-width:1024px) {
+    .main {
+        flex: 1 1 100%;
+        font-size: 24px;
+    }
+}
